@@ -1,4 +1,5 @@
-# 소개
+# 스터디 - 데이터 경진대회 참여하자
+
 데이터 경진 대회에 참여하기 위한 풀 싸이클을 돌아 봅니다. 그것도 딥러닝으로. 그런데 도구로써의 딥러닝입니다. 심오한 수학이나 통계, 없습니다. 개발자 수준으로 가져다 쓰는 딥러닝 입니다.
 
 그냥 데이터 경진대회 참여하려는데 이에 대한 가이드 혹은 도움을 드리는 스터디 입니다.
@@ -29,6 +30,7 @@
 
     진행방법 설명
     자료 설명
+    1차 미션 설명
 
 <br>
 
@@ -39,7 +41,7 @@
     다양한 소스(kaggle, http, github, db, google drive, AWS S3)
     다양한 포멧(zip, tar, npy, csv, xlx)
 
-미션 : [class1_mission.md](class1_mission.md)
+[미션](class1_mission.md)
 
 
 <br>
@@ -51,7 +53,7 @@
     numpy로 데이터 전처리
     데이터 시각화 : histogram, image 그리기, 선 그래프 그리기
 
-미션 : [class2_mission.md](class2_mission.md)
+[미션](class2_mission.md)
 
 <br>
 
@@ -61,7 +63,7 @@
     SVM, Decision Tree, Gaussian Process, Random Forest, linear regression
     classification, regression
 
-미션 : [class3_mission.md](class3_mission.md)
+[미션](class3_mission.md)
 
 <br>
 
@@ -71,7 +73,7 @@
     regression
     classification
 
-미션 : [class4_mission.md](class4_mission.md)
+[미션](class4_mission.md)
 
 <br>
 
@@ -83,7 +85,7 @@
     데이터 증강
     결과물 출품
 
-미션 : [class5_mission.md](class5_mission.md)
+[미션](class5_mission.md)
 
 <br>
 
@@ -92,7 +94,7 @@
     성능 개선
     혹은 다른 데이터로 한번 더
 
-미션 : [class6_mission.md](class6_mission.md)
+[미션](class6_mission.md)
 
 <br>
 

@@ -1,67 +1,102 @@
-# env
-- numpy : [numpy_for_deep_learning.ipynb](material/library/numpy_for_deep_learning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/library/numpy_for_deep_learning.ipynb)
-- pandas : [pandas_for_deep_learning.ipynb](material/library/pandas_for_deep_learning.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/library/pandas_for_deep_learning.ipynb)
-- matplot : [matplot_for_deep_learning.ipynb](material/library/matplot_for_deep_learning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/library/matplot_for_deep_learning.ipynb)
-- linux : [linux.md](./material/linux.md)
+# 소개
+데이터 경진 대회에 참여하기 위한 풀 싸이클을 돌아 봅니다. 그것도 딥러닝으로. 그런데 도구로써의 딥러닝입니다. 심오한 수학이나 통계, 없습니다. 개발자 수준으로 가져다 쓰는 딥러닝 입니다.
 
-# 데이터
+그냥 데이터 경진대회 참여하려는데 이에 대한 가이드 혹은 도움을 드리는 스터디 입니다.
 
-- IRIS : [iris.csv](material/data/iris.csv)
-- 회손된 IRIS : [flawed_iris.csv](material/data/flawed_iris.csv)
-- 개와 고양이 영상 : [cat_and_dog.zip](material/data/cat_and_dog.zip)
-- 꽃 영상 : [flowers.zip](material/data/flowers.zip)
+### 시간
+격주 금요일 7시부터 9시까지
 
-# 데이터 전처리
-- 데이터 전처리 요약 : [data_processing_concise.ipynb](material/library/data_processing_concise.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/library/data_processing_concise.ipynb)
-- 2차 솔루션
-    - [flawed_iris_preprocessing.ipynb](material/library/flawed_iris_preprocessing.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/library/flawed_iris_preprocessing.ipynb)
+### 대상 
+코딩은 익숙. 파이썬... 맨코딩은 아니라도 가져다 쓸수 있는
 
-# ML, DL
-- ML 사용예 : [ML_classifiers.ipynb](material/deep_learning/ML_classifiers.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/ML_classifiers.ipynb)
-- DL
-    - IRIS 분류 : [template_attribute_data_regression.ipynb](material/deep_learning/template_attribute_data_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_attribute_data_regression.ipynb)
-    - 속성 데이터 분류 : [template_attribute_data_regression.ipynb](material/deep_learning/template_attribute_data_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_attribute_data_regression.ipynb)
-    - 단일 숫자열 분류 : [template_numeric_sequence_data_classification.ipynb](material/deep_learning/template_numeric_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_numeric_sequence_data_classification.ipynb)
-    - 다중 숫자열 분류 : [template_multi_numeric_sequence_data_classification.ipynb](material/deep_learning/template_multi_numeric_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_multi_numeric_sequence_data_classification.ipynb) 
 
-- 3차 솔루션
-    - [202200501_pitcher_ML_classification.ipynb](material/solution/202200501_pitcher_ML_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/solution/202200501_pitcher_ML_classification.ipynb)
-- 4차 솔루션
-    - 미션 1 : [202200501_pitcher_DL_classification.ipynb](material/solution/202200501_pitcher_DL_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/solution/202200501_pitcher_DL_classification.ipynb)
-    - 미션 2 : [202200501_pitcher_DL_sequence_classification.ipynb](material/solution/202200501_pitcher_DL_sequence_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/solution/202200501_pitcher_DL_sequence_classification.ipynb)
-    
-# Keras Template
+<br>
 
-- 속성 데이터
-    - 예측 : [template_attribute_data_regression.ipynb](material/deep_learning/template_attribute_data_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_attribute_data_regression.ipynb)
-    - 분류 : [template_attribute_data_classification.ipynb](material/deep_learning/template_attribute_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_attribute_data_classification.ipynb)
-    - 2진 분류 : [template_attribute_data_binary_classification.ipynb](material/deep_learning/template_attribute_data_binary_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_attribute_data_binary_classification.ipynb)    
+# 진행 방법
 
-- 영상 데이터
-    - 예측 - vanilla CNN : [template_image_data_vanilla_cnn_regression.ipynb](material/deep_learning/template_image_data_vanilla_cnn_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_vanilla_cnn_regression.ipynb)
-    - 예측 - 전이학습 : [template_image_data_transfer_learning_regression.ipynb](material/deep_learning/template_image_data_transfer_learning_regression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_transfer_learning_regression.ipynb)
-    - 분류 - vanilla CNN : [template_image_data_vanilla_cnn_classification.ipynb](material/deep_learning/template_image_data_vanilla_cnn_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_vanilla_cnn_classification.ipynb)
-    - 분류 - 전이학습 : [template_image_data_transfer_learning_classification.ipynb](material/deep_learning/template_image_data_transfer_learning_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_transfer_learning_classification.ipynb)
-    - 2진 분류 - vanilla CNN : [template_image_data_vanilla_cnn_binary_classification.ipynb](material/deep_learning/template_image_data_vanilla_cnn_binary_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_vanilla_cnn_binary_classification.ipynb)
-    - 2진 분류 - 전이학습 : [template_image_data_transfer_learning_binary_classification.ipynb](material/deep_learning/template_image_data_transfer_learning_binary_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_image_data_transfer_learning_binary_classification.ipynb)
+실제 데이터를 가지고 딥러닝 코딩을 통해 대회에 참여하는 것을 목적으로 합니다. 대회에 참여한다고 해서 상위 입상을 목적으로 하지 않습니다. 그보다는 데이터 입수와 처리, 딥러닝 적용, 튜닝, 결과물 생성 등의 전체 흐름을 해보고 딥러닝 데이터 처리의 자신감을 얻고자 합니다. 심오한 딥러닝이 아닌 가져다 쓰는 도구의 관점으로 딥러닝을 대하려 합니다. 수식이나 통계 몰라도 됩니다. Spring 내부 몰라도 잘만 쓸 수 있잖아요. 아래 커리큘럼을 보시면 딥러닝에 대한 사항은 6차 중에 겨우 1차 뿐입니다. 가져다 쓰는 딥러닝입니다.
 
-- 순차열 데이터
-    - 숫자열
-        - 단일 숫자열 예측 : [template_numeric_sequence_data_prediction.ipynb](material/deep_learning/template_numeric_sequence_data_prediction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_numeric_sequence_data_prediction.ipynb)
-        - 단일 숫자열 분류 : [template_numeric_sequence_data_classification.ipynb](material/deep_learning/template_numeric_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_numeric_sequence_data_classification.ipynb)
-        - 다중 숫자열 분류 : [template_multi_numeric_sequence_data_classification.ipynb](material/deep_learning/template_multi_numeric_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_multi_numeric_sequence_data_classification.ipynb) 
-        - 다중 숫자열 다중 예측 : [template_multi_numeric_sequence_data_multi_prediction.ipynb](material/deep_learning/template_multi_numeric_sequence_data_multi_prediction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_multi_numeric_sequence_data_multi_prediction.ipynb)
-        - 다중 숫자열 단일 예측 : [template_multi_numeric_sequence_data_one_prediction.ipynb](material/deep_learning/template_multi_numeric_sequence_data_one_prediction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_multi_numeric_sequence_data_one_prediction.ipynb)
-        - sequence DataGenerator : [weather_forecasting.ipynb](material/deep_learning/weather_forecasting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/weather_forecasting.ipynb)        
-    - 문자열
-        - 문자열 예측 : [template_text_sequence_data_prediction.ipynb](material/deep_learning/template_text_sequence_data_prediction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_text_sequence_data_prediction.ipynb)
-        - 문자열 분류 : [template_text_sequence_data_classification.ipynb](material/deep_learning/template_text_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_text_sequence_data_classification.ipynb)
-        - 문자열 연속 예측 : [template_text_data_sequential_generation.ipynb](material/deep_learning/template_text_data_sequential_generation.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_text_data_sequential_generation.ipynb)
-    - 단어열
-        - 단어열 분류 : [template_word_sequence_data_classification.ipynb](material/deep_learning/template_word_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_word_sequence_data_classification.ipynb)
-        - 단어열 예측 : [template_word_sequence_data_prediction.ipynb](material/deep_learning/template_word_sequence_data_prediction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_word_sequence_data_prediction.ipynb)
-        - 한글 단어열 분류 : [template_korean_word_sequence_data_classification.ipynb](material/deep_learning/template_korean_word_sequence_data_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/template_korean_word_sequence_data_classification.ipynb)
-        - Bert를 사용한 한글 문장 간 관계 분류 : [korean_sentence_relation_classification_with_bert.ipynb](material/deep_learning/korean_sentence_relation_classification_with_bert.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/korean_sentence_relation_classification_with_bert.ipynb)
-        - Bert를 사용한 한글 문장 간 관계값 예측 : [korean_sentence_relation_regression_with_bert.ipynb](material/deep_learning/korean_sentence_relation_regression_with_bert.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/slipp_study_2022_DL_competition/blob/master/material/deep_learning/korean_sentence_relation_regression_with_bert.ipynb)
+매 스터디 때에는 미션안내와 피드백을 스터디 리더가 진행합니다. 미션을 수행하기 위한 자료들은 일단 제공합니다. 자료 활용과 공부와 미션수행은 스스로 하는 것이고. 스터디 시간에는 진행된 것에 대한 피드백을 제공합니다. 모든 분에 대하여 피드백을 제공할 수는 없고, 두분 정도가 적당할 것 같습니다. 피드백 이후에 다음 미션에 대한 자세한 설명을 드립니다.
+
+스터디에 참여하시고 미션의 설명을 듣고, 다음 스터디 때까지 전달된 자료를 가지고 미션을 수행하시고, 스터디 시에는 자신의 혹은 다른 분의 결과물에 대한 피드백을 받고. 실제 데이터를 가지고 대회에 참가하는 것인데, 스터디를 통해서 가이드를 혹은 도움을 받는 형태로 진행하는 겁니다.
+
+
+<br>
+
+# 커리큘럼
+
+## 0차 : OT
+
+    진행방법 설명
+    자료 설명
+
+<br>
+
+## 1차 : 기반 환경과 데이터 준비, 로딩
+
+    colab or kaggle vm
+    linux command
+    다양한 소스(kaggle, http, github, db, google drive, AWS S3)
+    다양한 포멧(zip, tar, npy, csv, xlx)
+
+미션 : [class1_mission.md](class1_mission.md)
+
+
+<br>
+
+## 2차 : 데이터 전처리, 시각화
+
+    데이터 전처리 : 결측치, 이상치, 코드성 데이터 인코딩, 정규화
+    pandas로 데이터 전처리
+    numpy로 데이터 전처리
+    데이터 시각화 : histogram, image 그리기, 선 그래프 그리기
+
+미션 : [class2_mission.md](class2_mission.md)
+
+<br>
+
+## 3차 : ML(머신러닝)으로
+
+    대회의 데이터를 가지고
+    SVM, Decision Tree, Gaussian Process, Random Forest, linear regression
+    classification, regression
+
+미션 : [class3_mission.md](class3_mission.md)
+
+<br>
+
+## 4차 : DL(딥러닝)으로
+
+    3차에서 ML로 했던 것을 DL로.
+    regression
+    classification
+
+미션 : [class4_mission.md](class4_mission.md)
+
+<br>
+
+## 5차 : 대회 출품
+
+    결과물 만들기
+    성능 개선
+    오버피팅 처리
+    데이터 증강
+    결과물 출품
+
+미션 : [class5_mission.md](class5_mission.md)
+
+<br>
+
+## 6차 : 개선 혹은 한번 더
+
+    성능 개선
+    혹은 다른 데이터로 한번 더
+
+미션 : [class6_mission.md](class6_mission.md)
+
+<br>
+
+# 학습 자료
+[material_index.md](material_index.md)
 
 

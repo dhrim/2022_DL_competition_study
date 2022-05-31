@@ -25,7 +25,7 @@
     - google drive : https://forge.scilab.org/index.php/p/rdataset/source/file/master/csv/datasets/iris.csv 를 사용자 컴으로 다운받아 google drive에 올리고 colab에서 drive를 마운트해서 colab에서 pandas로 로딩하기.
     - http by wget
         - from normal web : https://forge.scilab.org/index.php/p/rdataset/source/file/master/csv/datasets/iris.csv 를 colab에서 wget으로 직접 다운받고 pandas로 로딩하기.
-        - from github : https://github.com/dhrim/2022_DL_competition_study/blob/master/material/deep_learning/iris.csv 를 colab에서 wget으로 직접 다운받고 pandas로 로딩하기.
+        - from github : https://github.com/dhrim/2022_DL_competition_study/blob/master/material/data/iris.csv 를 colab에서 wget으로 직접 다운받고 pandas로 로딩하기.
         - image data : http://beltlineorg-wpengine.netdna-ssl.com/wp-content/uploads/2012/12/IMG_5669-flickr-websized.jpg 를 colab에서 wget으로 직접 다운받고 matplot으로 이미지 보기
     - google drive :
     https://drive.google.com/file/d/1_l-0FUDU1EovwlhnILnrrC0labjWtgCJ/view?usp=sharing 를 gdown(따로 설치한)으로 colab에서 직접 다운받고 matplot으로 이미지 보기

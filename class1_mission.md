@@ -40,7 +40,7 @@
 <br>        
 
 ## 3단계 - 다양한 포멧
-- https://github.com/dhrim/2022_DL_competition_study/raw/master/material/deep_learning/dogs_prepared.tar.gz 를 가져와서 압축풀고 matplotlib로 이미지 보기
+- https://github.com/dhrim/2022_DL_competition_study/raw/master/material/data/dogs_prepared.tar.gz 를 가져와서 압축풀고 matplotlib로 이미지 보기
 - xxx의 xxx.tar를 가져와서 압축 풀고 pandas로 로딩하기.
 - xxx의 xxx.zip을 가져와서 압축 풀고 pandas로 로딩하기.
 - xxx의 xxx.npy를 가져와서 numpy로 로딩하기.

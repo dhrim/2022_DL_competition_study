@@ -39,8 +39,8 @@
 ## 4단계 - 성능 개선
 
 - 참고 자료 : 
-    - 오버피팅 처리 : material/deep_learning/dnn_in_keras_overfitting.ipynb
-    - Early Stopping : material/deep_learning/dnn_in_keras_callback.ipynb
+    - 오버피팅 처리 : [material/deep_learning/dnn_in_keras_overfitting.ipynb](material/deep_learning/dnn_in_keras_overfitting.ipynb)
+    - Early Stopping : [material/deep_learning/dnn_in_keras_callback.ipynb](material/deep_learning/dnn_in_keras_callback.ipynb)
 
 - 이상치 처리
     - 이상치 처리 안된경우 이상치 처리

@@ -29,7 +29,10 @@
 - 4차 솔루션
     - 미션 1 : [202200501_pitcher_DL_classification.ipynb](material/solution/202200501_pitcher_DL_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/2022_DL_competition_study/blob/master/material/solution/202200501_pitcher_DL_classification.ipynb)
     - 미션 2 : [202200501_pitcher_DL_sequence_classification.ipynb](material/solution/202200501_pitcher_DL_sequence_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/2022_DL_competition_study/blob/master/material/solution/202200501_pitcher_DL_sequence_classification.ipynb)
-    
+
+- 오버피팅 처리 : [dnn_in_keras_overfitting.ipynb](material/deep_learning/dnn_in_keras_overfitting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrim/2022_DL_competition_study/blob/master/material/deep_learning/dnn_in_keras_overfitting.ipynb) 
+
+
 # Keras Template
 
 - 속성 데이터
